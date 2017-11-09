@@ -2,9 +2,9 @@
 Contributors: pojo.me, KingYes, ariel.k, jzaltzberg, mati1000, pojosh, yehudah
 Tags: page builder, editor, landing page, drag-and-drop, elementor, visual editor, wysiwyg, design, maintenance mode, coming soon, under construction, website builder, landing page builder, front-end builder
 Requires at least: 4.5
-Tested up to: 4.8
+Tested up to: 4.9
 Requires PHP: 5.4
-Stable tag: 1.7.11
+Stable tag: 1.8.0
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -22,7 +22,7 @@ It's time for **[Elementor Page Builder](https://elementor.com/?utm_source=wp-re
 Instant reaction was a key feature we wanted to achieve. And we did. Instant drag & drop page builder, instant live edit, instant page load. The speed of Elementor is not matched by any other page builder, free or paid. This makes the interface fun and easy to work with, as well as reduces the time it takes to design.
 
 = Live design. Truly live. =
-Never again work on the backend and guess what the frontend will look like. With Elementor page builder, you edit the page and simultaneously see exactly how it looks like. Elementor features live editing that is truly live, with no need to press update or go to preview mode.
+Never again work on the backend and guess what the frontend will look like. With Elementor page builder, you edit the page and simultaneously see exactly how it looks like. Elementor features live design & inline editing, so the whole process of writing and designing is done directly on the page, with no need to press update or go to preview mode.
 
 = Surprises you won’t see anywhere else. =
 With Elementor's unique features, you can create websites that have that certain 'designer touch'. Among our page builder features are: Box Shadows, Background Overlays, Hover Effects, Headline Effects, Animations, Shape Dividers, Gradient Backgrounds and much more.
@@ -183,6 +183,35 @@ No. Elementor supports WordPress 4.5 or greater, and is compatible with PHP 5.4 
 7. **Shape Divider.** Choose from a wide array of shape dividers and separate your sections in endless ways, that until now were simply not possible.
 
 == Changelog ==
+
+= 1.8.0 - 07.11.2017 =
+* New! - Inline Editing added to all text, textarea & TinyMCE controls ([#437](https://github.com/pojome/elementor/issues/437))
+* New! - Added auto complete for code editor (Custom CSS & HTML widget) ([#2416](https://github.com/pojome/elementor/issues/2416))
+* New! – Added more icons to Social Icons widget: Telegram & OK ([#2670](https://github.com/pojome/elementor/issues/2670))
+* New! - Set focus to search bar when you click on widget button in the panel ([#2333](https://github.com/pojome/elementor/issues/2333))
+* Tweak! - Added `soft wrap` for code editor
+* Tweak! - Better accessibility for Tabs, Toggle & Accordion widgets
+* Tweak! - Added option to disable the widget on-change rendering
+* Tweak! - Improved error dialogs for better handling cases when the editor fails to load.
+* Tweak! - Rename Global Colors & Fonts to Default Colors and Default Fonts for better clarify
+* Tweak! - Update Google Fonts list with more then 10 new fonts
+* Tweak! - Eicons v2.5.0 updated
+* Tweak! - Added an "Elementor" post state for post table
+* Tweak! - Added responsive control for Icon Box (Space & Size)
+* Tweak! - Added compatibility and support for WP Color in WordPress 4.9 ([#2550](https://github.com/pojome/elementor/issues/2550))
+* Tweak! - Better nonce handling/renewing to avoid timeouts
+* Tweak! – Added compatibility for the future release of Elementor
+* Fix! - Icon List widget alignment with RTL
+* Fix! - Render element on unknown control changed
+* Fix! - Conflict `elementor-clickable` element with editor lightbox
+* Fix! - Handle download media/gallery inside repeater control for export/import
+
+= 1.7.12 - 24.10.2017 =
+* Fix! - Stay in the same tab settings after saving
+* Fix! - Refresh heartbeat token when nonce is expired
+* Fix! - Space for mobile in Image Box widget ([#2586](https://github.com/pojome/elementor/issues/2586))
+* Fix! - Added visual indication for disabled swiper nav arrow button
+* Fix! - Color picker alignment for extended panel ([#2548](https://github.com/pojome/elementor/issues/2548))
 
 = 1.7.11 - 04.10.2017 =
 * Fix! - `options is undefined` error when using select2
